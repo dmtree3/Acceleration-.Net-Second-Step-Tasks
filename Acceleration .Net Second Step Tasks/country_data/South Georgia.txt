@@ -1,0 +1,5 @@
+region: Antarctic
+subregion: Missing
+latlng: -54.5, -37
+area: 3903
+population: 30

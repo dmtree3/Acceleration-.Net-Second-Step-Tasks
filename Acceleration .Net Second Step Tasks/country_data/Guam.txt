@@ -1,0 +1,5 @@
+region: Oceania
+subregion: Micronesia
+latlng: 13.46666666, 144.78333333
+area: 549
+population: 168783

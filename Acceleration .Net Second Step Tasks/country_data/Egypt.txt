@@ -1,0 +1,5 @@
+region: Africa
+subregion: Northern Africa
+latlng: 27, 30
+area: 1002450
+population: 102334403

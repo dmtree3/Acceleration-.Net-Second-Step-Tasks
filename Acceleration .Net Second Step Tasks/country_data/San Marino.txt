@@ -1,0 +1,5 @@
+region: Europe
+subregion: Southern Europe
+latlng: 43.76666666, 12.41666666
+area: 61
+population: 33938

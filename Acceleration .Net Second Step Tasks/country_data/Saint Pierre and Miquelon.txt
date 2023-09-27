@@ -1,0 +1,5 @@
+region: Americas
+subregion: North America
+latlng: 46.83333333, -56.33333333
+area: 242
+population: 6069

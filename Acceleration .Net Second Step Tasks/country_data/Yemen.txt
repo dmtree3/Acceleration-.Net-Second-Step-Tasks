@@ -1,0 +1,5 @@
+region: Asia
+subregion: Western Asia
+latlng: 15, 48
+area: 527968
+population: 29825968

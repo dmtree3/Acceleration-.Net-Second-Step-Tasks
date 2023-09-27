@@ -1,0 +1,29 @@
+﻿CREATE TABLE Teachers (
+    teacher_id INT PRIMARY KEY AUTO_INCREMENT,
+    firstname VARCHAR(200) NOT NULL,
+    lastname VARCHAR(250) NOT NULL,
+    gender ENUM('Male', 'Female', 'Other') NOT NULL,
+    subjectfield VARCHAR(200)
+);
+
+CREATE TABLE Pupil (
+    pupil_id INT PRIMARY KEY AUTO_INCREMENT,
+    firstname VARCHAR(200) NOT NULL,
+    lastname VARCHAR(250) NOT NULL,
+    gender ENUM('Male', 'Female', 'Other') NOT NULL,
+    class VARCHAR(200)
+);
+
+CREATE TABLE TeacherPupil (
+    teacher_id INT NOT NULL,
+    pupil_id INT NOT NULL,
+    PRIMARY KEY (teacher_id, pupil_id),
+    FOREIGN KEY (teacher_id) REFERENCES Teachers(teacher_id) ON DELETE NO ACTION,
+    FOREIGN KEY (pupil_id) REFERENCES Pupil(pupil_id) ON DELETE NO ACTION
+);
+
+SELECT *
+FROM Teachers
+JOIN TeacherPupil ON Teachers.teacher_id = TeacherPupil.teacher_id
+JOIN Pupil ON TeacherPupil.pupil_id = Pupil.pupil_id
+WHERE Pupil.firstname = 'Giorgi';

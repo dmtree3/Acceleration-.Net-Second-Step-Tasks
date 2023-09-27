@@ -1,0 +1,5 @@
+region: Africa
+subregion: Southern Africa
+latlng: -29.5, 28.5
+area: 30355
+population: 2142252

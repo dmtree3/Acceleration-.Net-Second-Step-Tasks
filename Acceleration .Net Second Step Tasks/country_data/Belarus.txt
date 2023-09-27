@@ -1,0 +1,5 @@
+region: Europe
+subregion: Eastern Europe
+latlng: 53, 28
+area: 207600
+population: 9398861
